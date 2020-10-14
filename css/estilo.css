@@ -1,0 +1,201 @@
+/* estilização pagina inicial a */
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+.menu{
+    background-color:red;
+    height: 60px;
+    padding-top: 25px;    
+}
+
+.menu a{
+    color:white;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 120px;
+    padding-left: 150px;
+    text-decoration: none;font-weight: bold;
+}
+   
+.Bvindo{
+    color: blue;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.descontoloja {
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    display: inline-block;
+    background-color:red;  
+}
+
+.rodape{
+    text-align: center;
+    color:rgb(13, 0, 128);
+     font-size: 3px;                                         /*       estrutura do rodape             */
+    font-weight: bold;
+    margin-top: 3px;  
+    margin-bottom:50px;
+} 
+.fcartao{
+    color: red;
+}
+
+    /* estilização pagina nossos produtos */
+    
+.produtos{
+    margin-right: 2px;
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cabecalhoproduto{
+    color:blue;                                  /* titulo produto */
+    margin-left: 25px;   
+    margin-top: 3%;          
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.categoria{
+    color:purple;                   /* nome categoria dos produtos */
+    font-size: 20px;
+    margin-top: 3%;              
+    margin-left: 25px;  
+}
+
+li{
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;                     /* categoria dos produtos */
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.box_produto{
+    display:inline-block;
+    width: 300px;                   /* preços e descrição dos pordutos */
+    padding: 3px;  
+    margin-left: 15px;
+}
+
+.preço{
+   color:red;                                   
+}
+/* estilização pagina endereço das lojas */
+
+.tituloh2{
+    color: blue;
+    text-decoration: underline;                /* titulo na pagina */
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+#nomeestados{
+      color:red;
+      font-weight: bold;                     /* nome de cada estado */
+      font-size: 25px;  
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+ 
+.inicioendereco{
+    width:150%;
+    margin-top: 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px; 
+}
+
+.enderecoloja{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    
+    
+}
+
+/* estilização da pagina fale conosco */
+    
+.fconosco{
+    color: blue;
+    font-size: 30px;
+    margin-left:3%;
+    margin-top: 3%;
+    text-decoration: underline;
+}
+
+.elemento{
+    width:100%;
+    text-align: center;                           
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1%;
+    font-size: 20%;
+}
+
+.elementoEmail{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 5px 5px 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elementoContato{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 5px 5px 50px;
+    text-align: center;
+    text-decoration: underline;  
+    color: green;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#preencher{
+       color:green;
+       font-size: 20px;
+       margin-left: 2%;
+       width: 400px;
+       height: 400px;
+   }
+  
+.formname{
+    color:red;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.inputname{
+    width: 400px;
+    height: 25px; 
+}
+
+.enviar{
+    color: blue;
+    font-weight: bold;
+    background-color: greenyellow;
+    width: 45px;
+}
+
+
+textarea{
+     width: 400px;
+    height: 100px;  
+
+}
+
